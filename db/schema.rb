@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 20150701170626) do
 
   create_table "scales", force: true do |t|
     t.string   "date"
-    t.string   "scale"
+    t.integer  "scale"
     t.string   "author"
     t.datetime "created_at"
     t.datetime "updated_at"

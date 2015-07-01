@@ -3,7 +3,7 @@ class CreateScales < ActiveRecord::Migration
     create_table :scales do |t|
 
     	t.string :date
-    	t.string :scale 
+    	t.integer :scale 
     	t.string :author
 
       t.timestamps
