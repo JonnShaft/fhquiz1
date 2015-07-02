@@ -1,5 +1,9 @@
 class ScalesController < ApplicationController
 
-	def create
+	def index
+	end
+
+	def new
+		@scale = Scale.new
 	end
 end

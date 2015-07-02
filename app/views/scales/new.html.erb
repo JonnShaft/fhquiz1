@@ -1,6 +1,10 @@
+<div class="booyah-box col-xs-10 col-xs-offset-1">
 <h1>Enter Your Static Feelings Here</h1>
 <%= simple_form_for @scale do |f| %>
 	<%= f.input :date %>
 	<%= f.input :scale %>
 	<%= f.input :author %>
+	<br />
+	<%= f.submit 'Create', :class => 'btn btn-primary' %>
 <% end %>
+</div>
