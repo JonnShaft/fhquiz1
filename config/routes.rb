@@ -1,6 +1,6 @@
 Fhquiz1::Application.routes.draw do
 
-  root 'places#index'
+  root 'scales#index'
 
   resources :scales
 
